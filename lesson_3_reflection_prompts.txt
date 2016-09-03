@@ -10,3 +10,11 @@ Why might you want to always pull changes manually rather than having Git automa
   at that current moment and you'll probably need to merge those two.
   The worst case there is that you'll need to review all the diffs and come up with the final version
   and you don't really want to do that while you're in the middle of something.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+  Branches are different versions of code inside the repo, like roads inside the region,
+  while forks and clones are regions or more like folders, let's stick with that.
+  You can clone a repo from one place to another, and this is a basic functionality of git.
+  While fork is a special case of clone, which exist on GitHub and similar to clone,
+  but extended with some more info about previous author.
