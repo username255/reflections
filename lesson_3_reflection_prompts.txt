@@ -18,3 +18,7 @@ Describe the differences between forks, clones, and branches. When would you use
   You can clone a repo from one place to another, and this is a basic functionality of git.
   While fork is a special case of clone, which exist on GitHub and similar to clone,
   but extended with some more info about previous author.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+  You could review it later, when you'll be offline, check all the differences and maybe even merge it.
