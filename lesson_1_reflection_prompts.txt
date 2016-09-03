@@ -1,0 +1,36 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It makes file traversal faster, while you're trying to find the source of bug.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Backups are helpful for making application stable, furthermore if there are multiple contributors - it's really helpful to see what was changed during the time you were off.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    In such a way developer can introduce changes without breaking the code, plus it makes more sense, when you're making logical changes and saving those just when you think it's done.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Sometimes logical changes might involve multiple files, either it's a function which get's some value located in one file and there is other one which executes on results of previous one,
+    so in case you want to refactor such a pipeline, you'll probably need to change both files, so it won't break the code.
+    Google Docs files usually aren't depending on any other files, so it makes a perfect sense for them to make changes to one file a the time.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    With 'git log --stat' you can dig through the history of commits and see some basic information, including files that were touched and number of lines that differ,
+    while with the help of 'git diff' you could take a closer look on the difference between two commits.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Since you'll have previous versions available within few git commands, it's easy to restore everything you've broke and that makes you feel safer.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Version control.
